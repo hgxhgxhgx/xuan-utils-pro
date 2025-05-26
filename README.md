@@ -8,7 +8,7 @@
     </a>
 </p>
 <p align="center" style="font-size:17px; background-color:rgb(245, 245, 245); border-radius:50px;">
-    v2.0.0
+    v2.0.1
 </p>
 <p align="center" style="background-color:rgb(245, 245, 245); color:rgb(170,132,56);">
     运行环境：jdk8
@@ -230,9 +230,6 @@ public class ZiWeiTest {
 ## **更多功能正在完善中...**
 
 
-<p align="center" style="background-color:rgb(245, 245, 245); border-radius:50px; color:rgb(193, 155, 79);">
-    运行环境：JDK8
-</p>
 <p align="right" style="margin:-11px 0 -11px 0; color:green;">
     ℹ 代码仅供参考
 </p>

@@ -2,6 +2,7 @@ package xuan.core.liuyao;
 
 import java.util.*;
 
+import xuan.core.bazi.maps.BaZiJiChuMap;
 import xuan.utils.DateUtil;
 import xuan.utils.CommonUtil;
 import com.nlf.calendar.Lunar;
@@ -331,7 +332,8 @@ public class LiuYao {
      * @return 月将（如：子）
      */
     public String getYueJiang() {
-        return LiuYaoJiChuMap.YUE_JIANG.get(this.monthZhi).get(0);
+        int lunarMonth = this.lunar.getMonth() > 0 ? this.lunar.getMonth() : -this.lunar.getMonth();
+        return LiuYaoJiChuMap.YUE_JIANG.get(lunarMonth).get(0);
     }
 
     /**
@@ -340,7 +342,8 @@ public class LiuYao {
      * @return 月将神（如：神后）
      */
     public String getYueJiangShen() {
-        return LiuYaoJiChuMap.YUE_JIANG.get(this.monthZhi).get(1);
+        int lunarMonth = this.lunar.getMonth() > 0 ? this.lunar.getMonth() : -this.lunar.getMonth();
+        return LiuYaoJiChuMap.YUE_JIANG.get(lunarMonth).get(1);
     }
 
     /**

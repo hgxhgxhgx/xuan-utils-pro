@@ -1,8 +1,9 @@
-package xuan.core.bazi;
+package xuan.core;
 
 import java.util.Date;
 
 import org.junit.Test;
+import xuan.core.bazi.BaZi;
 import xuan.core.bazi.settings.BaZiJiChuSetting;
 import xuan.core.bazi.settings.BaZiShenShaSetting;
 import xuan.core.bazi.settings.BaZiGanZhiLiuYiSetting;

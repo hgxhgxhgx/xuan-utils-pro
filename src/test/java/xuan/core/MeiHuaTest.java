@@ -1,8 +1,9 @@
-package xuan.core.meihua;
+package xuan.core;
 
 import java.util.Date;
 
 import org.junit.Test;
+import xuan.core.meihua.MeiHua;
 import xuan.core.meihua.settings.MeiHuaJiChuSetting;
 
 /**

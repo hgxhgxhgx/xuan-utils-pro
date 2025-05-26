@@ -407,7 +407,8 @@ public class BaZi {
      * @return 月将（如：子）
      */
     public String getYueJiang() {
-        return BaZiJiChuMap.YUE_JIANG.get(this.monthZhi).get(0);
+        int lunarMonth = this.lunar.getMonth() > 0 ? this.lunar.getMonth() : -this.lunar.getMonth();
+        return BaZiJiChuMap.YUE_JIANG.get(lunarMonth).get(0);
     }
 
     /**
@@ -416,7 +417,8 @@ public class BaZi {
      * @return 月将神（如：神后）
      */
     public String getYueJiangShen() {
-        return BaZiJiChuMap.YUE_JIANG.get(this.monthZhi).get(1);
+        int lunarMonth = this.lunar.getMonth() > 0 ? this.lunar.getMonth() : -this.lunar.getMonth();
+        return BaZiJiChuMap.YUE_JIANG.get(lunarMonth).get(1);
     }
 
     /**

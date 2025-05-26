@@ -12,24 +12,25 @@ import java.util.*;
 public class ZiWeiJiChuMap {
 
     /**
-     * 月将、月将神（地支为键）
+     * 月将、月将神（农历月为键）
      */
-    public static final Map<String, List<String>> YUE_JIANG = new HashMap<String, List<String>>() {
+    public static final Map<Integer, List<String>> YUE_JIANG = new HashMap<Integer, List<String>>() {
         private static final long serialVersionUID = -1;
 
         {
-            put("子", Arrays.asList("丑", "大吉")); // 丑为月将，大吉为月将神
-            put("丑", Arrays.asList("子", "神后"));
-            put("寅", Arrays.asList("亥", "登明"));
-            put("卯", Arrays.asList("戌", "河魁"));
-            put("辰", Arrays.asList("酉", "从魁"));
-            put("巳", Arrays.asList("申", "传送"));
-            put("午", Arrays.asList("未", "小吉"));
-            put("未", Arrays.asList("午", "胜光"));
-            put("申", Arrays.asList("巳", "太乙"));
-            put("酉", Arrays.asList("辰", "天罡"));
-            put("戌", Arrays.asList("卯", "太冲"));
-            put("亥", Arrays.asList("寅", "功曹"));
+
+            put(1, Arrays.asList("亥", "登明")); // 农历一月：月将为亥，月将神为登明
+            put(2, Arrays.asList("戌", "河魁"));
+            put(3, Arrays.asList("酉", "从魁"));
+            put(4, Arrays.asList("申", "传送"));
+            put(5, Arrays.asList("未", "小吉"));
+            put(6, Arrays.asList("午", "胜光"));
+            put(7, Arrays.asList("巳", "太乙"));
+            put(8, Arrays.asList("辰", "天罡"));
+            put(9, Arrays.asList("卯", "太冲"));
+            put(10, Arrays.asList("寅", "功曹"));
+            put(11, Arrays.asList("丑", "大吉"));
+            put(12, Arrays.asList("子", "神后"));
         }
     };
 

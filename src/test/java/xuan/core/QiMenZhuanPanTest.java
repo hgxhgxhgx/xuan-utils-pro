@@ -1,8 +1,9 @@
-package xuan.core.qimen;
+package xuan.core;
 
 import java.util.Date;
 
 import org.junit.Test;
+import xuan.core.qimen.QiMenZhuanPan;
 import xuan.core.qimen.settings.QiMenZhuanPanJiChuSetting;
 
 /**

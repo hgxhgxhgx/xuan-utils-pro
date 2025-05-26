@@ -1,8 +1,9 @@
-package xuan.core.ziwei;
+package xuan.core;
 
 import java.util.Date;
 
 import org.junit.Test;
+import xuan.core.ziwei.ZiWei;
 import xuan.core.ziwei.settings.ZiWeiJiChuSetting;
 
 /**
@@ -36,7 +37,7 @@ public class ZiWeiTest {
 
         // 2、初始化
         ZiWei ziWei = new ZiWei(ziWeiJiChuSetting); // 使用基础设置初始化
-        System.out.println(ziWei);
+
 
         // 3、数据
         System.out.println("⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐");
