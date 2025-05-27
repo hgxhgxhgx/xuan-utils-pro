@@ -7,13 +7,20 @@
     	https://muxuange.cn/paipan
     </a>
 </p>
+<p align="center">
+    <a href='https://gitee.com/shan-dai/xuan-utils-pro/stargazers'>
+        <img src='https://gitee.com/shan-dai/xuan-utils-pro/badge/star.svg?theme=white' />
+    </a>
+    <a href='https://gitee.com/shan-dai/xuan-utils-pro/members'>
+        <img src='https://gitee.com/shan-dai/xuan-utils-pro/badge/fork.svg?theme=white' />
+    </a>
+</p>
 <p align="center" style="font-size:17px; background-color:rgb(245, 245, 245); border-radius:50px;">
     v2.0.1
 </p>
 <p align="center" style="background-color:rgb(245, 245, 245); color:rgb(170,132,56);">
     运行环境：jdk8
 </p>
-
 
 ```
 特性：
@@ -22,7 +29,6 @@
 √ 提高代码可扩展性
 √ ...
 ```
-
 
 ## **八字排盘**
 
@@ -33,7 +39,7 @@
 ```java
 public class BaZiTest {
     public static void main(String[] args) {
-        
+
         // 1、基础设置（可选）
         BaZiJiChuSetting baZiJiChuSetting = new BaZiJiChuSetting();
         baZiJiChuSetting.setSex(1); // 性别（0:女。1:男）
@@ -43,7 +49,7 @@ public class BaZiTest {
         BaZiShenShaSetting baZiShenShaSetting = new BaZiShenShaSetting();
         baZiShenShaSetting.setTaiJiGuiRen(0); // 太极贵人（0:显示。1:关闭）
         // 更多神煞设置...
-        
+
         // 3、干支留意设置（可选）
         BaZiGanZhiLiuYiSetting baZiGanZhiLiuYiSetting = new BaZiGanZhiLiuYiSetting();
         baZiGanZhiLiuYiSetting.setTianGanXiangSheng(0); // 天干相生（0:显示。1:关闭）
@@ -56,7 +62,7 @@ public class BaZiTest {
 
         // 5、输出结果
         System.out.println(baZi);
-        
+
     }
 }
 ```
@@ -87,7 +93,7 @@ public class LiuYaoTest {
         LiuYaoJiChuSetting liuYaoJiChuSetting = new LiuYaoJiChuSetting();
         baZiJiChuSetting.setSex(1); // 性别（0:女。1:男）
         // 更多基础设置...
-        
+
         // 2、神煞设置（可选）
         LiuYaoShenShaSetting liuYaoShenShaSetting = new LiuYaoShenShaSetting();
         liuYaoShenShaSetting.setTaiJiGuiRen(0); // 太极贵人（0:显示。1:关闭）
@@ -99,7 +105,7 @@ public class LiuYaoTest {
 
         // 4、输出结果
         System.out.println(liuYao);
-        
+
     }
 }
 ```
@@ -125,7 +131,7 @@ public class LiuYaoTest {
 ```java
 public class QiMenTest {
     public static void main(String[] args) {
-        
+
         // 1、基础设置（可选）
         QiMenZhuanPanJiChuSetting qiMenZhuanPanJiChuSetting = new QiMenZhuanPanJiChuSetting();
         qiMenZhuanPanJiChuSetting.setSex(1); // 性别（0:女。1:男）
@@ -136,7 +142,7 @@ public class QiMenTest {
 
         // 3、输出结果
         System.out.println(qiMen);
-        
+
     }
 }
 ```
@@ -162,18 +168,18 @@ public class QiMenTest {
 ```java
 public class MeiHuaTest {
     public static void main(String[] args) {
-        
+
         // 1、基础设置（可选）
         MeiHuaJiChuSetting meiHuaJiChuSetting = new MeiHuaJiChuSetting();
         meiHuaJiChuSetting.setSex(1); // 性别（0:女。1:男）
         // 更多基础设置...
-        
+
         // 2、初始化
         MeiHua meiHua = new MeiHua(meiHuaJiChuSetting); // 使用基础设置初始化
 
         // 3、输出结果
         System.out.println(meiHua);
-        
+
     }
 }
 ```
@@ -204,13 +210,13 @@ public class ZiWeiTest {
         ZiWeiJiChuSetting ziWeiJiChuSetting = new ZiWeiJiChuSetting();
         ziWeiJiChuSetting.setSex(1); // 性别（0:女。1:男）
         // 更多基础设置...
-        
+
         // 2、初始化
         ZiWei ziWei = new ZiWei(ziWeiJiChuSetting); // 使用基础设置初始化
 
         // 3、输出结果
         System.out.println(ziWei);
-        
+
     }
 }
 ```
@@ -228,7 +234,6 @@ public class ZiWeiTest {
 =========================================================
 
 ## **更多功能正在完善中...**
-
 
 <p align="right" style="margin:-11px 0 -11px 0; color:green;">
     ℹ 代码仅供参考
