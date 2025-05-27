@@ -62,9 +62,6 @@ public class ZiWeiTest {
         System.out.println("季节：" + ziWei.getJiJie());
         System.out.println("生肖：" + ziWei.getShengXiao());
         System.out.println("星座：" + ziWei.getXingZuo());
-        System.out.println("月相：" + ziWei.getYueXiang());
-        System.out.println("月将：" + ziWei.getYueJiang());
-        System.out.println("月将神：" + ziWei.getYueJiangShen());
         System.out.println("五不遇时：" + ziWei.getWuBuYuShi());
 
         System.out.println("\n--------------------------------------------------------------------------------------------------------------\n");
@@ -122,6 +119,36 @@ public class ZiWeiTest {
         System.out.println("月干支空亡：" + ziWei.getMonthGanZhiKongWang());
         System.out.println("日干支空亡：" + ziWei.getDayGanZhiKongWang());
         System.out.println("时干支空亡：" + ziWei.getHourGanZhiKongWang());
+
+        System.out.println("\n--------------------------------------------------------------------------------------------------------------\n");
+
+        System.out.println("上一节：" + ziWei.getPrevJie());
+        System.out.println("上一节日期：" + ziWei.getPrevJieDateStr());
+        System.out.println("距上一节天数：" + ziWei.getPrevJieDay());
+        System.out.println();
+        System.out.println("下一节：" + ziWei.getNextJie());
+        System.out.println("下一节日期：" + ziWei.getNextJieDateStr());
+        System.out.println("距下一节天数：" + ziWei.getNextJieDay());
+        System.out.println();
+        System.out.println("出生节：" + ziWei.getChuShengJie());
+
+        System.out.println("\n--------------------------------------------------------------------------------------------------------------\n");
+
+        System.out.println("上一气：" + ziWei.getPrevQi());
+        System.out.println("上一气日期：" + ziWei.getPrevQiDateStr());
+        System.out.println("距上一气天数：" + ziWei.getPrevQiDay());
+        System.out.println();
+        System.out.println("下一气：" + ziWei.getNextQi());
+        System.out.println("下一气日期：" + ziWei.getNextQiDateStr());
+        System.out.println("距下一气天数：" + ziWei.getNextQiDay());
+        System.out.println();
+        System.out.println("出生气：" + ziWei.getChuShengQi());
+
+        System.out.println("\n--------------------------------------------------------------------------------------------------------------\n");
+
+        System.out.println("月相：" + ziWei.getYueXiang());
+        System.out.println("月将：" + ziWei.getYueJiang());
+        System.out.println("月将神：" + ziWei.getYueJiangShen());
 
         System.out.println("\n--------------------------------------------------------------------------------------------------------------\n");
 
